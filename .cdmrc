@@ -1,0 +1,12 @@
+# terminals
+terminals:
+    [
+        'cd client && yarn && yarn start',
+        'cd server && yarn && yarn dev',
+        'echo "We''re ready"',
+    ]
+# other config
+tabs: ['README.md']
+run-button: clear && node $$file
+live-reload-browser: false
+browser-link: https://wikipedia.org
